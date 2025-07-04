@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haripur University GPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎓 Welcome to Haripur University GPA Calculator</h1>
+        <p><strong>Note:</strong> This GPA Calculator follows the official grading system of <span class="highlight">The University of Haripur</span>. Only for Haripur University students.</p>
+        
+        <p>Select the number of subjects to calculate your GPA:</p>
+        <select id="subjectCount">
+            <option value="" disabled selected>Select Subjects</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <button id="proceedBtn">Proceed</button>
+
+        <div id="subjectDetails"></div>
+        <div id="marksSection"></div>
+        <div id="resultSection"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
